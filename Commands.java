@@ -10,7 +10,7 @@ public class Commands extends ListenerAdapter{
 			EmbedBuilder info = new EmbedBuilder();
 			info.setTitle("Information");
 			info.setDescription("Hello! I am Latexio. I can help you convert any math symbols");
-			info.addField("Creators", "Asvin, Aayush, Andrew, Jeffrey", false);
+			info.addField("Creator", "Asvin", false);
 			info.setColor(0xf45642);
 			
 			event.getChannel().sendTyping().queue();
